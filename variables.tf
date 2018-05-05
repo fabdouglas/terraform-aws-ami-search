@@ -24,6 +24,7 @@ variable "amis_os_map_regex" {
     debian       = "^debian-stretch-.*"
     debian-8     = "^debian-jessie-.*"
     debian-9     = "^debian-stretch-.*"
+    fedora       = "^Fedora-Cloud-Base-27-.*-gp2.*"
     fedora-27    = "^Fedora-Cloud-Base-27-.*-gp2.*"
     amazon       = "^amzn-ami-hvm-.*-gp2"
     amazon-2_lts = "^amzn2-ami-hvm-.*-gp2"
@@ -52,6 +53,7 @@ variable "amis_os_map_owners" {
       debian       = "679593333241"
       debian-8     = "679593333241"
       debian-9     = "679593333241"
+      fedora       = "125523088429" #Fedora
       fedora-27    = "125523088429" #Fedora
       amazon       = "137112412989" #amazon
       amazon-2_lts = "137112412989" #amazon
